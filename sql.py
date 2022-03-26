@@ -18,7 +18,7 @@ def create_db_connection(host_name, user_name, user_password, db_name):
     return connection
 
 # Default user name is root.
-pw = "My5ql"
+pw = "*****"
 db = "school"
 connection = create_db_connection("localhost", "root", pw, db)
 
