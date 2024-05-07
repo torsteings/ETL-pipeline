@@ -68,3 +68,4 @@ CREATE TABLE client (
 """
 connection = create_db_connection("localhost", "root", pw, db)
 execute_query(connection, create_client_table)
+
